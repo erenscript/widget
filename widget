@@ -1,0 +1,39 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(-0.188836738, 0, 0.621890545, 0)
+TextLabel.Size = UDim2.new(0, 925, 0, 512)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Tanix Executor"
+TextLabel.TextColor3 = Color3.fromRGB(61, 0, 0)
+TextLabel.TextSize = 39.000
+TextLabel.TextTransparency = 0.730
+
+TextLabel_2.Parent = ScreenGui
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(-0.21204865, 0, 0.655328572, 0)
+TextLabel_2.Size = UDim2.new(0, 925, 0, 512)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "Free Version"
+TextLabel_2.TextColor3 = Color3.fromRGB(20, 0, 0)
+TextLabel_2.TextSize = 30.000
+TextLabel_2.TextTransparency = 0.730
