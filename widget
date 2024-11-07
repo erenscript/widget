@@ -4,36 +4,38 @@
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
-local TextLabel = Instance.new("TextLabel")
-local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel1 = Instance.new("TextLabel")
+local TextLabel2 = Instance.new("TextLabel")
 
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-TextLabel.Parent = ScreenGui
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(-0.188836738, 0, 0.621890545, 0)
-TextLabel.Size = UDim2.new(0, 925, 0, 512)
-TextLabel.Font = Enum.Font.Unknown
-TextLabel.Text = "Tanix Executor"
-TextLabel.TextColor3 = Color3.fromRGB(61, 0, 0)
-TextLabel.TextSize = 39.000
-TextLabel.TextTransparency = 0.730
+TextLabel1.Name = "TextLabel1"
+TextLabel1.Parent = ScreenGui
+TextLabel1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel1.BackgroundTransparency = 1.000
+TextLabel1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel1.BorderSizePixel = 0
+TextLabel1.Position = UDim2.new(-0.172924846, 0, 0.593283594, 0)
+TextLabel1.Size = UDim2.new(0, 925, 0, 512)
+TextLabel1.Font = Enum.Font.Unknown
+TextLabel1.Text = "Tanix Executor"
+TextLabel1.TextColor3 = Color3.fromRGB(61, 0, 0)
+TextLabel1.TextSize = 39.000
+TextLabel1.TextTransparency = 0.730
 
-TextLabel_2.Parent = ScreenGui
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(-0.21204865, 0, 0.655328572, 0)
-TextLabel_2.Size = UDim2.new(0, 925, 0, 512)
-TextLabel_2.Font = Enum.Font.Unknown
-TextLabel_2.Text = "Free Version"
-TextLabel_2.TextColor3 = Color3.fromRGB(20, 0, 0)
-TextLabel_2.TextSize = 30.000
-TextLabel_2.TextTransparency = 0.730
+TextLabel2.Name = "TextLabel2"
+TextLabel2.Parent = ScreenGui
+TextLabel2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel2.BackgroundTransparency = 1.000
+TextLabel2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2.BorderSizePixel = 0
+TextLabel2.Position = UDim2.new(-0.182672888, 0, 0.627965391, 0)
+TextLabel2.Size = UDim2.new(0, 925, 0, 512)
+TextLabel2.Font = Enum.Font.Unknown
+TextLabel2.Text = "Free Version"
+TextLabel2.TextColor3 = Color3.fromRGB(20, 0, 0)
+TextLabel2.TextSize = 30.000
+TextLabel2.TextTransparency = 0.730
